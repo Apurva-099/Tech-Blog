@@ -3,8 +3,8 @@
 This project is made for the TECH-A-THON 2.0 hackathon.
 
 In this project we have built a client-side website which is Tech-Blog, the index page is built with CSS-Grid which divides the page into navbar, articles-container and topics-container,
-For the navbar I used the Bootstrap navbar component, I used DOM manipulations to add divs articles and topics to different div containers,
-In addition, I used localStorage to store user information on the client-side. I built the project using HTML, CSS and Javascript.
+For the navbar we used the Bootstrap navbar component, We used DOM manipulations to add divs articles and topics to different div containers,
+In addition, We used localStorage to store user information on the client-side. We built the project using HTML, CSS and Javascript.
 
 ## Goals
 
