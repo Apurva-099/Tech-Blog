@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(..\\img\\tyler-franta-iusJ25iYu1c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.signup-container{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 30vh;
+    width: 25vw;
+
+    position: relative;
+    left: 35%;
+    top: 30%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+    padding: 15px 15px 15px 15px;
+    
+}
+
+.email-input{
+
+    position: relative;
+    left: 48%;
+}
+
+.confirm-email-input{
+    position: relative;
+    left: 35%;
+}
+
+.password-input{
+    position: relative;
+    left: 42%;
+}
+
+.username-input{
+    position: relative;
+    left: 41%;
+}
+
+.user-details {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 60vh;
+    width: 25vw;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.user-details div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dont-have-an-account {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-button-div {
+    position: relative;
+    left: 49%;
+}
+
+.signup-button {
+
+    background-color: white;
+
+    border-radius: 10px;
+    margin-top: 10px;
+
+    position: relative;
+    left: 30%;
+}
+
+.signup-button:hover {
+
+    background-color: lightgray;
+}
+
+.login-button {
+
+    height: 6vh;
+    width: 20vw;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    position: relative;
+    left: 10%;
+    margin-bottom: 10px;
+}
+
+.login-button:hover {
+
+    background-color: lightgray;
+}
+
+/* footer  */
+
+.footer-paragraph {
+    position: relative;
+    left: 39%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer img {
+    position: relative;
+    left: 39%;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    height: 2.8rem;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+/* //////////////////////////////////////// */
+
+/* Media Queries for Responsive UI */
+
+@media all and (max-width: 1200px){
+
+    body {
+        background-image: url("..\\img\\tyler-franta-iusJ25iYu1c-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-paragraph {
+        position: relative;
+        left: 28%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    footer img {
+        position: relative;
+        left: 25%;
+        margin-top: 10px;
+    }
+    
+}
